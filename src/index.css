@@ -1,15 +1,41 @@
+:root {
+  --color-bg1: #84c5b7;
+  --color-bg2: #569ac8;
+
+  --dark-text: #333;
+  --light-text: #f1f1f1;
+
+  --light-blue: rgbs(255, 255, 255, 0.75);
+}
+
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fff0f5;
+  background: linear-gradient(to right, var(--color-bg1), var(--color-bg2));
   margin: 0;
   padding: 0;
-  color: #333;
+  color: var(--dark-text);
 }
 
 .container {
   max-width: 400px;
+  min-height: 100vh;
   margin: 40px auto;
-  background-color: white;
   border-radius: 16px;
   padding: 24px;
+  color: var(--dark-text);
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  gap: 10px;
+}
+
+.container > button {
+  cursor: pointer;
+  border: 1px solid var(--light-text);
+  outline: none;
+  background-color: var(--light-blue);
+  font-size: 1.2rem;
 }
