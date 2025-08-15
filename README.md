@@ -17,13 +17,13 @@ It supports basic arithmetic operations, has a clean design, and works on both d
 
 ## 📸 Preview
 
-![Calculator App Screenshot](./screenshot.png)
+![Calculator App Screenshot]()
 
 ---
 
 ## 🚀 Live Demo
 
-[Click here to try the app](https://your-live-demo-link.com)
+[Click here to try the app]()
 
 ---
 
