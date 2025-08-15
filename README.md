@@ -1,7 +1,3 @@
-Here’s a clean, friendly, and professional **GitHub README** for a calculator app:
-
----
-
 # 🧮 Calculator App
 
 A simple yet powerful calculator built with **\[Your Tech Stack: e.g., HTML, CSS, JavaScript, React]**.
