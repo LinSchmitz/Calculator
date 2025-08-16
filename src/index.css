@@ -39,3 +39,7 @@ body {
   background-color: var(--light-blue);
   font-size: 1.2rem;
 }
+
+.container > button:hover {
+  background-color: var(--light-text);
+}
