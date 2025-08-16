@@ -3,7 +3,10 @@ import React from 'react';
 function App() {
   return (
     <div className="container">
-      <div className="output"></div>
+      <div className="output">
+        <div className="prev-opersnad">123+</div>
+        <div className="curr-opersnad">456</div>
+      </div>
       <button className="span-two">AC</button>
       <button>DEL</button>
       <button>÷</button>

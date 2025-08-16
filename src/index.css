@@ -6,6 +6,7 @@
   --light-text: #f1f1f1;
 
   --light-blue: rgbs(255, 255, 255, 0.75);
+  --dark-output: rgba(0, 0, 0, 0.75);
 }
 
 body {
@@ -46,4 +47,9 @@ body {
 
 .span-two {
   grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: var(--dark-output);
 }
