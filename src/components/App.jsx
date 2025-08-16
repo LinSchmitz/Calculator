@@ -4,8 +4,8 @@ function App() {
   return (
     <div className="container">
       <div className="output">
-        <div className="span-2">AC</div>
-        <div>DEL</div>
+        <button className="span-2">AC</button>
+        <button>DEL</button>
       </div>
       <button>÷</button>
       <button>1</button>
