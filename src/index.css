@@ -4,6 +4,7 @@
 
   --dark-text: #333;
   --light-text: #f1f1f1;
+  --pure-white: #fff;
 
   --light-blue: rgbs(255, 255, 255, 0.75);
   --dark-output: rgba(0, 0, 0, 0.75);
@@ -67,6 +68,6 @@ body {
 }
 
 .output .curr-operand {
-  color: var(--light-text);
-  font-size: 1.5rem;
+  color: var(--pure-white);
+  font-size: 2.5rem;
 }
