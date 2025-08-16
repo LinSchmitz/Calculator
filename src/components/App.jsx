@@ -4,8 +4,8 @@ function App() {
   return (
     <div className="container">
       <div className="output">
-        <div className="prev-opersnad">123+</div>
-        <div className="curr-opersnad">456</div>
+        <div className="prev-operand">123+</div>
+        <div className="curr-operand">456</div>
       </div>
       <button className="span-two">AC</button>
       <button>DEL</button>
