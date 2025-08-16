@@ -3,10 +3,9 @@ import React from 'react';
 function App() {
   return (
     <div className="container">
-      <div className="output">
-        <button className="span-2">AC</button>
-        <button>DEL</button>
-      </div>
+      <div className="output"></div>
+      <button className="span-two">AC</button>
+      <button>DEL</button>
       <button>÷</button>
       <button>1</button>
       <button>2</button>
