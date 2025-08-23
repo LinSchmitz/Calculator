@@ -17,7 +17,7 @@ It supports basic arithmetic operations, has a clean design, and works on both d
 
 ## 📸 Preview
 
-![Calculator App Screenshot]()
+![Calculator App]()
 
 ---
 
